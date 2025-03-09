@@ -1,0 +1,11 @@
+void setup() {
+  // Initialization
+  pinMode(4, OUTPUT); 
+}
+
+void loop() {
+  digitalWrite(4, HIGH);  
+  delay(3000);             // Wait for 3 seconds
+  digitalWrite(4, LOW);   
+  delay(3000);             // Wait for 3 seconds
+}
